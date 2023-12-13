@@ -61,4 +61,48 @@ NOTE
 20. unzip file_name
 - unzip the file with .zip extension
 
+21. mv original_file_name new_file_name
+- rename the file
+
+22. cat file1 file2 > newfilename
+- copies content of file1 and file2 to new file
+
+22. split -l 1 file_name
+- splits the content of file 
+
+23. cat file | grep word_name
+- show's the perticular word from the given file 
+
+Note - 
+* | -> pipe symbol which redirects output to another source 
+
+23. head -1 file_name
+- show's only 1 line from start of file
+
+24. tail -2 file_name
+- show's only 2 lines from end of file
+
+25. sort file_name
+- sort the file content
+
+26. sort filename | uniq
+- sort the file content and removes duplicates
+
+27. su -
+- switch user to root
+- su stands for switch user and '-' stands for root user, instead of that we can also provide name of user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
