@@ -92,6 +92,53 @@ Note -
 - switch user to root
 - su stands for switch user and '-' stands for root user, instead of that we can also provide name of user
 
+** GREP COMMAND **
+
+- GREP (Global regular expression print)
+- GREP command search for a particular string/keyword from a file and print lines matching a pattern.
+- It checks line by line and print lines matching given pattern  
+
+* Syntax : grep [OPTION].. Pattern [File]..
+
+* Examples : 
+1. grep "keyword" file_name
+- gives perticular line of matching word
+
+2. grep -i "keyword" file_name
+- not case sensetive
+
+3. grep -v "keyword" file
+- To search everything except given pattern/keyword
+	
+4. grep -c "keyowrd" file
+- Prints how many times (count) given keyword is present in file it consider's only one word from one line
+
+5. grep -w "kewyord" file
+- To search for exact match of given keyword in a file
+
+6. grep -n "keyword" file
+- Prints the line number and word of matching keyword
+ 
+7. grep "keyword" file1 file2
+- To search a given keyword in multiple files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
