@@ -100,7 +100,7 @@ Note -
 
 * Syntax : grep [OPTION].. Pattern [File]..
 
-* Examples : 
+* Examples :- 
 1. grep "keyword" file_name
 - gives perticular line of matching word
 
